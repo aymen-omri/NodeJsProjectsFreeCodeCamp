@@ -1,0 +1,24 @@
+{
+    "name": "thirdprojectnodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mongodb": "^4.6.0",
+        "mongoose": "^6.3.4",
+        "nodemon": "^2.0.7",
+        "path": "^0.12.7",
+        "shortid": "^2.2.16",
+        "valid-url": "^1.0.9"
+    }
+}
